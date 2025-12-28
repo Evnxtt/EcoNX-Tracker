@@ -1,4 +1,4 @@
-# NX CNC Carbon Emission Add-on
+# EcoNX-Tracker CNC Carbon Emission Add-on
 
 This is a C++ implementation of an NX Siemens Add-on designed to estimate energy consumption and carbon emissions from CNC machining processes. The add-on extracts machining data directly from NX CAM, applies engineering-based physical models, and optionally integrates AI (machine learning) to improve prediction accuracy.
 
