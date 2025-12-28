@@ -1,0 +1,175 @@
+# NX Siemens Add-Ons Project - .gitignore
+
+# Build artifacts
+build/
+*.dll
+*.lib
+*.exp
+*.obj
+*.o
+*.exe
+*.pdb
+*.ilk
+*.so
+
+# NX specific files
+*.ugprj
+*.ugii
+*.prt
+*.asm
+*.exp
+*.ugcheck
+*.ugcse
+*.ugcsebin
+*.ugcseobj
+*.ugcsetemp
+
+# IDE and editor files
+.vs/
+.vscode/
+*.swp
+*.swo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.filters
+*.vcproj.*
+*.vcxproj.*
+*.vcxproj.user
+*.vcxproj.User
+*.vcxproj.USER
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Log files
+*.log
+*.out
+*.err
+nxlog/
+nx_logs/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+*.cache
+*.cached
+*.backup
+
+# User-specific files
+*.config.user
+*.userprefs
+*.userprofile
+.vsconfig
+
+# Configuration files that contain sensitive data
+config.json
+*.config
+*.cfg
+*.ini
+*.secret
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# API keys and secrets
+**/api_key*
+**/apikey*
+**/secret*
+**/token*
+**/password*
+**/credentials*
+**/auth*
+
+# NX user directories
+/AppData/Roaming/Siemens/NX*/
+%APPDATA%\Siemens\NX*/
+
+# OpenAI API keys
+OPENAI_API_KEY
+openai_api_key
+openai.key
+openai.token
+openai_api_key.txt
+openai_api_key.json
+secrets.json
+
+# Personal configuration files
+user_config.json
+secure_config.json
+nx_addon_config.json
+
+# NX temporary files
+*.ugtmp
+*.ugtemp
+*.ugtmpbin
+*.ugtempbin
+
+# Backup files
+*.bak
+*.backup
+*~
+\#*\#
+*.tar.*
+*.zip
+*.rar
+*.7z
+
+# CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Compilation files
+Debug/
+Release/
+x64/
+x86/
+bin/
+lib/
+obj/
+
+# Testing files
+test_results/
+test_output/
+*.test
+*.tests
+
+# Documentation drafts
+*.draft
+*.tmp.md
+*.temp.md
+
+# IDE specific
+*.iws
+*.iml
+*.ipr
+.idea/
+*.swm
+*.swn
+*.swp
+
+# NX CAM specific
+*.cam
+*.nc
+*.gcode
+*.post
+*.ptp
+*.operation
+*.setup
+*.program

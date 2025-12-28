@@ -1,0 +1,9 @@
+material,tool_diameter_mm,spindle_rpm,feed_mm_min,depth_of_cut_mm,operation_type,machine_type,cutting_power_kW
+Al6061,10,8000,1200,2.0,Milling,3axis_VMC,4.8
+Steel_S45C,10,5000,600,2.0,Milling,3axis_VMC,6.5
+Ti6Al4V,8,6000,400,1.5,Milling,3axis_VMC,7.2
+Al6061,6,10000,1500,1.0,Drilling,3axis_VMC,3.2
+Steel_S45C,6,4000,300,1.0,Drilling,3axis_VMC,4.1
+Al6061,12,7000,1000,3.0,Milling,3axis_VMC,5.5
+Steel_S45C,12,4500,700,3.0,Milling,3axis_VMC,7.8
+Al6061,8,9000,1100,1.5,Milling,3axis_VMC,4.2
